@@ -31,4 +31,4 @@ jobs:
         context: project
 #         file: Dockerfile 
         push: true
-        tags: techtrends/techtrends:latest
+        tags: tommygoris12/techtrends/techtrends:latest
