@@ -1,8 +1,10 @@
 FROM python:2.7
 
+LABEL maintainer="Tommy"
+
 EXPOSE 3111
 
-COPY /techtrends /app
+COPY techtrends /app
 
 WORKDIR /app
 
